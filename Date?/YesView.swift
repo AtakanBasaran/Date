@@ -9,7 +9,7 @@ import SwiftUI
 
 struct YesView: View {
     
-    @State var animate = true
+    @Binding var animate: Bool
     
     var body: some View {
         
@@ -81,5 +81,5 @@ struct ConfettiShape: Shape {
 }
 
 #Preview {
-    YesView()
+    YesView(animate: .constant(true))
 }

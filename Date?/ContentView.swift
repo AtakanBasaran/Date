@@ -81,7 +81,7 @@ struct ContentView: View {
             
             
             if yesTapped {
-                YesView(animate: animate)
+                YesView(animate: $animate)
             }
             
             
