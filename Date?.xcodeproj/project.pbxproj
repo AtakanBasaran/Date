@@ -14,6 +14,8 @@
 		BB9FFC8D2C55106500261FD0 /* GradientColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FFC8C2C55106500261FD0 /* GradientColorView.swift */; };
 		BB9FFC8F2C55112E00261FD0 /* AnimationHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FFC8E2C55112E00261FD0 /* AnimationHeart.swift */; };
 		BB9FFC912C55167100261FD0 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FFC902C55167100261FD0 /* AnswerButton.swift */; };
+		BB9FFC932C55530E00261FD0 /* YesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FFC922C55530E00261FD0 /* YesView.swift */; };
+		BB9FFC952C55549000261FD0 /* HeartAnimationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9FFC942C55549000261FD0 /* HeartAnimationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		BB9FFC8C2C55106500261FD0 /* GradientColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColorView.swift; sourceTree = "<group>"; };
 		BB9FFC8E2C55112E00261FD0 /* AnimationHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHeart.swift; sourceTree = "<group>"; };
 		BB9FFC902C55167100261FD0 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		BB9FFC922C55530E00261FD0 /* YesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesView.swift; sourceTree = "<group>"; };
+		BB9FFC942C55549000261FD0 /* HeartAnimationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 			children = (
 				BB9FFC7E2C550EE700261FD0 /* Date_App.swift */,
 				BB9FFC802C550EE700261FD0 /* ContentView.swift */,
+				BB9FFC922C55530E00261FD0 /* YesView.swift */,
 				BB9FFC8C2C55106500261FD0 /* GradientColorView.swift */,
+				BB9FFC942C55549000261FD0 /* HeartAnimationsView.swift */,
 				BB9FFC8E2C55112E00261FD0 /* AnimationHeart.swift */,
 				BB9FFC902C55167100261FD0 /* AnswerButton.swift */,
 				BB9FFC822C550EEA00261FD0 /* Assets.xcassets */,
@@ -149,7 +155,9 @@
 				BB9FFC912C55167100261FD0 /* AnswerButton.swift in Sources */,
 				BB9FFC8D2C55106500261FD0 /* GradientColorView.swift in Sources */,
 				BB9FFC812C550EE700261FD0 /* ContentView.swift in Sources */,
+				BB9FFC952C55549000261FD0 /* HeartAnimationsView.swift in Sources */,
 				BB9FFC7F2C550EE700261FD0 /* Date_App.swift in Sources */,
+				BB9FFC932C55530E00261FD0 /* YesView.swift in Sources */,
 				BB9FFC8F2C55112E00261FD0 /* AnimationHeart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -266,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,11 +295,13 @@
 				DEVELOPMENT_TEAM = 27JCDAS664;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Starbecks;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,11 +326,13 @@
 				DEVELOPMENT_TEAM = 27JCDAS664;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Starbecks;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
