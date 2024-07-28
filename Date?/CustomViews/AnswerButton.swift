@@ -20,7 +20,7 @@ struct AnswerButton: View {
             
             RoundedRectangle(cornerRadius: 15)
                 .foregroundStyle(color)
-                .frame(width: 100, height: 50)
+                .frame(width: 110, height: 40)
             
             Button {
                 action()

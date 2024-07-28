@@ -18,7 +18,8 @@ struct GradientColorView: View {
             Color(red: 1.0, green: 0.6, blue: 0.8), // Pink
             Color(red: 1.0, green: 0.4, blue: 0.6), // Deep pink
             Color(red: 1.0, green: 0.2, blue: 0.4),  // Romantic red-pink
-            Color.purple
+            Color.purple,
+            Color.cyan
             
         ], startPoint: .bottomTrailing, endPoint: .topLeading)
         

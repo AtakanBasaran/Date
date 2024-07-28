@@ -64,10 +64,7 @@
 				BB9FFC7E2C550EE700261FD0 /* Date_App.swift */,
 				BB9FFC802C550EE700261FD0 /* ContentView.swift */,
 				BB9FFC922C55530E00261FD0 /* YesView.swift */,
-				BB9FFC8C2C55106500261FD0 /* GradientColorView.swift */,
-				BB9FFC942C55549000261FD0 /* HeartAnimationsView.swift */,
-				BB9FFC8E2C55112E00261FD0 /* AnimationHeart.swift */,
-				BB9FFC902C55167100261FD0 /* AnswerButton.swift */,
+				BB9FFC972C565B4C00261FD0 /* CustomViews */,
 				BB9FFC822C550EEA00261FD0 /* Assets.xcassets */,
 				BB9FFC842C550EEA00261FD0 /* Preview Content */,
 			);
@@ -80,6 +77,17 @@
 				BB9FFC852C550EEA00261FD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB9FFC972C565B4C00261FD0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BB9FFC8C2C55106500261FD0 /* GradientColorView.swift */,
+				BB9FFC942C55549000261FD0 /* HeartAnimationsView.swift */,
+				BB9FFC8E2C55112E00261FD0 /* AnimationHeart.swift */,
+				BB9FFC902C55167100261FD0 /* AnswerButton.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

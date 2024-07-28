@@ -34,23 +34,21 @@ struct YesView: View {
             
             ZStack {
                 
-                Text("Laktozsuz sütlü, az buzlu Ice Latte arıyor, açıyım mı?")
+                Text("Thanks for saying yes 😍")
                     .multilineTextAlignment(.center)
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
-                    .scaleEffect(animate ? 1.1 : 0.7)
+                    .scaleEffect(animate ? 1.2 : 0.7)
                     .opacity(animate ? 1 : 0.7)
                     .padding()
                     .background(
                         RoundedRectangle(cornerRadius: 30)
                             .foregroundStyle(.pink).opacity(0.4)
-                            .scaleEffect(animate ? 1.1 : 0.7)
+                            .scaleEffect(animate ? 1.2 : 0.7)
                     )
                 
             }
-            
-            
             
         }
         

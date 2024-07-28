@@ -39,7 +39,7 @@ struct ContentView: View {
                 
                 VStack(spacing: 30) {
                     
-                    Text("Starbecks yapalım mı?")
+                    Text("Will you go on a date with me?")
                         .font(.title2)
                         .foregroundStyle(.white)
                     
@@ -86,6 +86,28 @@ struct ContentView: View {
             
             
         }
+        .overlay(alignment: .topLeading, content: {
+            
+            if yesTapped {
+                
+                Button(action: {
+                    yesTapped = false
+                }, label: {
+                    
+                    ZStack {
+                        Circle()
+                            .frame(width: 50)
+                            .foregroundStyle(.pink.opacity(0.7))
+                        
+                        Image(systemName: "arrowshape.backward.fill")
+                            .font(.system(size: 20))
+                            .foregroundStyle(.white)
+
+                    }
+                })
+                .padding(.leading, 15)
+            }
+        })
         
         .onAppear(perform: {
             withAnimation(.easeInOut(duration: 5).repeatForever(autoreverses: true)) {
